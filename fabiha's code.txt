@@ -7,7 +7,7 @@ Student s;
         istringstream ss(line);
         ss >> s.rId >> s.fName >> s.lName >> s.classes >> s.number;
 
-        if (s.rId == rId) {
+     if (s.rId == rId) {
             found = true;
             // If student found, update details
             cout << "Enter new First Name: ";
