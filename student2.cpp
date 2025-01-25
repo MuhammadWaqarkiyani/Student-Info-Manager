@@ -1,5 +1,6 @@
 
     Student s;
+
     cout << "Enter Registration ID: ";
     cin >> s.rId;
 
