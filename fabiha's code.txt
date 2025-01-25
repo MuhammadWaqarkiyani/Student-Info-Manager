@@ -1,6 +1,5 @@
 
-
-    Student s;
+Student s;
     string line;
     bool found = false;
 
