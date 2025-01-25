@@ -1,6 +1,8 @@
 
     Student s;
-    cout << "Enter Registration ID: ";
+    
+
+cout << "Enter Registration ID: ";
     cin >> s.rId;
 
     // Collect other student details
