@@ -21,4 +21,4 @@ void newStudentRegistration() {
     if (!outfile.is_open()) {
         cout << "Error: Unable to open file for writing!" << endl;
         return;
-    }
+  }
