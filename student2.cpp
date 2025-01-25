@@ -1,4 +1,4 @@
-qq
+q
     Student s;
 
 
