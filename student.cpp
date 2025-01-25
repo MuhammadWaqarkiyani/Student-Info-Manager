@@ -7,7 +7,7 @@ using namespace std;
 
 // Define a structure to store student information
 struct Student {
-    string rId;     // Registration ID
+    string rId;    // Registration ID
     string fName;   // First name
     string lName;   // Last name
     string classes; // Class information
