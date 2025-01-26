@@ -20,6 +20,7 @@ Student s;
             cin >> s.number;
         }
 
+
         // Write the updated student information to the temporary file
         tempfile << s.rId << " " << s.fName << " " << s.lName << " " << s.classes << " " << s.number << endl;
     }
