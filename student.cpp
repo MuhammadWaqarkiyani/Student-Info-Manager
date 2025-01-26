@@ -19,6 +19,7 @@ void newStudentRegistration() {
     // Open the file in append mode to add new students
 
     ofstream outfile("studentInfo.txt", ios::app);
+
     if (!outfile.is_open()) {
         cout << "Error: Unable to open file for writing!" << endl;
         return;

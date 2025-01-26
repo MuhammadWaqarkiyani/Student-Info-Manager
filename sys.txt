@@ -12,8 +12,8 @@
 
         if (s.rId == rId) {
             found = true;
-            // If student found, update details
-            cout << "Enter new First Name: ";
+         // If student found, update details
+            cout << "Enter new First Name: "; 
             cin >> s.fName;
             cout << "Enter new Last Name: ";
             cin >> s.lName;

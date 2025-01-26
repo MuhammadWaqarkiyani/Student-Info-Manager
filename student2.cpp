@@ -12,6 +12,7 @@
     cout << "Enter Mobile Number: ";
     cin >> s.number;
 
+
     // Write student information to the file
     outfile << s.rId << " " << s.fName << " " << s.lName << " " << s.classes << " " << s.number << endl;
     cout << "Successfully Added" << endl;
