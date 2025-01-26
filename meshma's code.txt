@@ -1,0 +1,29 @@
+Student s;
+    string line;
+    bool found = false;
+
+    while (getline(infile, line)) {
+        // Read student data from the file
+        istringstream ss(line);
+        ss >> s.rId >> s.fName >> s.lName >> s.classes >> s.number;
+
+        if (s.rId != rId) {
+            // Write to the temporary file if the student ID does not match
+            tempfile << s.rId << " " << s.fName << " " << s.lName << " " << s.classes << " " << s.number << endl;
+        } else {
+            found = true;
+            cout << "Student deleted successfully" << endl;
+        }
+    }
+
+    if (!found) {
+        cout << "Student with ID '" << rId << "' not found!" << endl;
+    }
+
+    infile.close();
+    tempfile.close();
+
+    // Replace the original file with the updated one
+    remove("studentInfo.txt");
+    rename("tempInfo.txt", "studentInfo.txt");
+}
