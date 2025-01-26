@@ -33,7 +33,7 @@ Student s;
     infile.close();
     tempfile.close();
 
-    // Replace the original file with the updated one
+// Replace the original file with the updated one
     remove("studentInfo.txt");
     rename("tempInfo.txt", "studentInfo.txt");
 }
